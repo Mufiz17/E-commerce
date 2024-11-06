@@ -1,8 +1,8 @@
 [{
         "name": "Hydrating Cleanser",
         "category": "cleanser",
-        "defaultImage": "/images/product-11.jpg",
-        "hoverImage": "/images/product-11.jpg",
+        "defaultImage": "images/product-11.jpg",
+        "hoverImage": "images/product-11.jpg",
         "rating": 4.5,
         "price": 22.50,
         "oldPrice": 30.00
@@ -10,8 +10,8 @@
     {
         "name": "Moisturizing Cream",
         "category": "moisturizer",
-        "defaultImage": "/images/product-15.jpg",
-        "hoverImage": "/images/product-15.jpg",
+        "defaultImage": "images/product-15.jpg",
+        "hoverImage": "images/product-15.jpg",
         "rating": 4.2,
         "price": 30.00,
         "oldPrice": 40.00
@@ -19,8 +19,8 @@
     {
         "name": "Anti-Aging Serum",
         "category": "serum",
-        "defaultImage": "/images/product-17.jpg",
-        "hoverImage": "/images/product-17.jpg",
+        "defaultImage": "images/product-17.jpg",
+        "hoverImage": "images/product-17.jpg",
         "rating": 4.8,
         "price": 45.00,
         "oldPrice": 55.00
@@ -28,8 +28,8 @@
     {
         "name": "Exfoliating Scrub",
         "category": "scrub",
-        "defaultImage": "/images/product-16.jpg",
-        "hoverImage": "/images/product-16.jpg",
+        "defaultImage": "images/product-16.jpg",
+        "hoverImage": "images/product-16.jpg",
         "rating": 4.0,
         "price": 28.00,
         "oldPrice": 35.00
@@ -37,8 +37,8 @@
     {
         "name": "Brightening Mask",
         "category": "mask",
-        "defaultImage": "/images/product-11.jpg",
-        "hoverImage": "/images/product-11.jpg",
+        "defaultImage": "images/product-11.jpg",
+        "hoverImage": "images/product-11.jpg",
         "rating": 3.6,
         "price": 34.50,
         "oldPrice": 42.00
@@ -46,8 +46,8 @@
     {
         "name": "Sunscreen Lotion",
         "category": "sunscreen",
-        "defaultImage": "/images/product-16.jpg",
-        "hoverImage": "/images/product-16.jpg",
+        "defaultImage": "images/product-16.jpg",
+        "hoverImage": "images/product-16.jpg",
         "rating": 3.7,
         "price": 25.00,
         "oldPrice": 35.00
@@ -55,8 +55,8 @@
     {
         "name": "Eye Cream",
         "category": "eye cream",
-        "defaultImage": "/images/product-17.jpg",
-        "hoverImage": "/images/product-17.jpg",
+        "defaultImage": "images/product-17.jpg",
+        "hoverImage": "images/product-17.jpg",
         "rating": 5.4,
         "price": 38.00,
         "oldPrice": 50.00
@@ -64,8 +64,8 @@
     {
         "name": "Toner Solution",
         "category": "toner",
-        "defaultImage": "/images/product-10.jpg",
-        "hoverImage": "/images/product-10.jpg",
+        "defaultImage": "images/product-10.jpg",
+        "hoverImage": "images/product-10.jpg",
         "rating": 4.3,
         "price": 20.00,
         "oldPrice": 28.00
@@ -73,8 +73,8 @@
     {
         "name": "Acne Spot Treatment",
         "category": "acne treatment",
-        "defaultImage": "/images/product-07.jpg",
-        "hoverImage": "/images/product-07.jpg",
+        "defaultImage": "images/product-07.jpg",
+        "hoverImage": "images/product-07.jpg",
         "rating": 6.1,
         "price": 18.00,
         "oldPrice": 25.00
@@ -82,8 +82,8 @@
     {
         "name": "Hydrating Mist",
         "category": "mist",
-        "defaultImage": "/images/product-01.jpg",
-        "hoverImage": "/images/product-01.jpg",
+        "defaultImage": "images/product-01.jpg",
+        "hoverImage": "images/product-01.jpg",
         "rating": 4.9,
         "price": 22.00,
         "oldPrice": 30.00
@@ -91,8 +91,8 @@
     {
         "name": "Oil-Free Gel",
         "category": "gel",
-        "defaultImage": "/images/product-05.jpg",
-        "hoverImage": "/images/product-05.jpg",
+        "defaultImage": "images/product-05.jpg",
+        "hoverImage": "images/product-05.jpg",
         "rating": 3.0,
         "price": 26.00,
         "oldPrice": 32.00
@@ -100,8 +100,8 @@
     {
         "name": "Calming Balm",
         "category": "balm",
-        "defaultImage": "/images/product-08.jpg",
-        "hoverImage": "/images/product-08.jpg",
+        "defaultImage": "images/product-08.jpg",
+        "hoverImage": "images/product-08.jpg",
         "rating": 4.5,
         "price": 30.00,
         "oldPrice": 38.00
@@ -109,8 +109,8 @@
     {
         "name": "Pore Refining Serum",
         "category": "pore serum",
-        "defaultImage": "/images/product-09.jpg",
-        "hoverImage": "/images/product-09.jpg",
+        "defaultImage": "images/product-09.jpg",
+        "hoverImage": "images/product-09.jpg",
         "rating": 2.6,
         "price": 42.00,
         "oldPrice": 50.00
@@ -118,8 +118,8 @@
     {
         "name": "Anti-Pollution Mist",
         "category": "pollution mist",
-        "defaultImage": "/images/product-02.jpg",
-        "hoverImage": "/images/product-02.jpg",
+        "defaultImage": "images/product-02.jpg",
+        "hoverImage": "images/product-02.jpg",
         "rating": 4.3,
         "price": 28.00,
         "oldPrice": 36.00
@@ -127,8 +127,8 @@
     {
         "name": "Restorative Night Cream",
         "category": "night cream",
-        "defaultImage": "/images/product-03.jpg",
-        "hoverImage": "/images/product-03.jpg",
+        "defaultImage": "images/product-03.jpg",
+        "hoverImage": "images/product-03.jpg",
         "rating": 4.0,
         "price": 48.00,
         "oldPrice": 60.00
@@ -136,8 +136,8 @@
     {
         "name": "Hyaluronic Acid Serum",
         "category": "hyaluronic serum",
-        "defaultImage": "/images/product-04.jpg",
-        "hoverImage": "/images/product-04.jpg",
+        "defaultImage": "images/product-04.jpg",
+        "hoverImage": "images/product-04.jpg",
         "rating": 4.7,
         "price": 36.00,
         "oldPrice": 45.00
@@ -145,8 +145,8 @@
     {
         "name": "Firming Neck Cream",
         "category": "neck cream",
-        "defaultImage": "/images/product-05.jpg",
-        "hoverImage": "/images/product-05.jpg",
+        "defaultImage": "images/product-05.jpg",
+        "hoverImage": "images/product-05.jpg",
         "rating": 4.2,
         "price": 32.00,
         "oldPrice": 40.00
@@ -154,8 +154,8 @@
     {
         "name": "Brightening Essence",
         "category": "essence",
-        "defaultImage": "/images/product-06.jpg",
-        "hoverImage": "/images/product-06.jpg",
+        "defaultImage": "images/product-06.jpg",
+        "hoverImage": "images/product-06.jpg",
         "rating": 4.9,
         "price": 45.00,
         "oldPrice": 55.00
@@ -163,8 +163,8 @@
     {
         "name": "Spot Corrector",
         "category": "spot corrector",
-        "defaultImage": "/images/product-07.jpg",
-        "hoverImage": "/images/product-07.jpg",
+        "defaultImage": "images/product-07.jpg",
+        "hoverImage": "images/product-07.jpg",
         "rating": 4.4,
         "price": 26.50,
         "oldPrice": 35.00
@@ -172,8 +172,8 @@
     {
         "name": "Vitamin C Serum",
         "category": "vitamin c serum",
-        "defaultImage": "/images/product-08.jpg",
-        "hoverImage": "/images/product-08.jpg",
+        "defaultImage": "images/product-08.jpg",
+        "hoverImage": "images/product-08.jpg",
         "rating": 4.6,
         "price": 39.00,
         "oldPrice": 50.00
@@ -181,8 +181,8 @@
     {
         "name": "Glycolic Acid Toner",
         "category": "glycolic acid toner",
-        "defaultImage": "/images/product-09.jpg",
-        "hoverImage": "/images/product-09.jpg",
+        "defaultImage": "images/product-09.jpg",
+        "hoverImage": "images/product-09.jpg",
         "rating": 4.3,
         "price": 32.00,
         "oldPrice": 40.00
@@ -190,8 +190,8 @@
     {
         "name": "Retinol Night Cream",
         "category": "retinol night cream",
-        "defaultImage": "/images/product-10.jpg",
-        "hoverImage": "/images/product-10.jpg",
+        "defaultImage": "images/product-10.jpg",
+        "hoverImage": "images/product-10.jpg",
         "rating": 4.7,
         "price": 48.00,
         "oldPrice": 55.00
@@ -199,8 +199,8 @@
     {
         "name": "Tea Tree Oil Spot Treatment",
         "category": "tea tree oil spot treatment",
-        "defaultImage": "/images/product-16.jpg",
-        "hoverImage": "/images/product-16.jpg",
+        "defaultImage": "images/product-16.jpg",
+        "hoverImage": "images/product-16.jpg",
         "rating": 4.2,
         "price": 22.00,
         "oldPrice": 28.00
@@ -208,8 +208,8 @@
     {
         "name": "Hyaluronic Acid Moisturizer",
         "category": "hyaluronic acid moisturizer",
-        "defaultImage": "/images/product-17.jpg",
-        "hoverImage": "/images/product-17.jpg",
+        "defaultImage": "images/product-17.jpg",
+        "hoverImage": "images/product-17.jpg",
         "rating": 4.8,
         "price": 34.00,
         "oldPrice": 45.00

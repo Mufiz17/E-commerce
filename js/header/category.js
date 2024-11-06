@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function() {
     // Fetch data from category.json
-    fetch("/db/category.json")
+    fetch("db/category.json")
         .then(response => response.json())
         .then(data => {
             // Call a function to create the category elements

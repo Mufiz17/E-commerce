@@ -1,5 +1,5 @@
 [{
-        "imageSrc": "./images/banner-1.jpg",
+        "imageSrc": "images/banner-1.jpg",
         "altText": "women's latest fashion sale",
         "subtitle": "Trending item",
         "title": "Women's latest fashion sale",
@@ -7,7 +7,7 @@
         "link": "#"
     },
     {
-        "imageSrc": "./images/banner-2.jpg",
+        "imageSrc": "images/banner-2.jpg",
         "altText": "modern sunglasses",
         "subtitle": "Trending accessories",
         "title": "Modern sunglasses",
@@ -15,7 +15,7 @@
         "link": "#"
     },
     {
-        "imageSrc": "./images/banner-3.jpg",
+        "imageSrc": "images/banner-3.jpg",
         "altText": "new fashion summer sale",
         "subtitle": "Sale Offer",
         "title": "New fashion summer sale",

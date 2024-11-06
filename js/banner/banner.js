@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function() {
     // Fetch data from JSON file
-    fetch('/db/banner.json')
+    fetch('db/banner.json')
         .then(response => response.json())
         .then(data => {
             const bannerSlider = document.getElementById('bannerSlider');

@@ -2,28 +2,28 @@
     "categoryName": "Best Sellers",
     "products": [{
             "name": "Facial Cleaner",
-            "image": "/images/product-01.jpg",
+            "image": "images/product-01.jpg",
             "rating": 5,
             "originalPrice": "$5.00",
             "discountedPrice": "$4.00"
         },
         {
             "name": "Facial Cleaner",
-            "image": "/images/product-02.jpg",
+            "image": "images/product-02.jpg",
             "rating": 4.5,
             "originalPrice": "$17.00",
             "discountedPrice": "$7.00"
         },
         {
             "name": "Girls T-Shirt",
-            "image": "/images/product-03.jpg",
+            "image": "images/product-03.jpg",
             "rating": 4.5,
             "originalPrice": "$5.00",
             "discountedPrice": "$3.00"
         },
         {
             "name": "Woolen Hat for Men",
-            "image": "/images/product-04.jpg",
+            "image": "images/product-04.jpg",
             "rating": 5,
             "originalPrice": "$15.00",
             "discountedPrice": "$12.00"

@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function() {
     // Fetch data from footercategory.json
-    fetch("/db/footercategory.json")
+    fetch("db/footercategory.json")
         .then(response => response.json())
         .then(data => {
             // Call function to generate dynamic content

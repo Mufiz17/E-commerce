@@ -1,5 +1,5 @@
 // Fetch data from JSON file
-fetch('/db/mobileNav.json')
+fetch('db/mobileNav.json')
     .then(response => response.json())
     .then(data => {
         const desktopNav = document.querySelector('.desktop-navigation-menu');

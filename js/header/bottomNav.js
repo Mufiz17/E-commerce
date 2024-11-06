@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function() {
     // Load JSON data
-    fetch('/db/bottomNav.json')
+    fetch('db/bottomNav.json')
         .then(response => response.json())
         .then(data => {
             // Create mobile bottom navigation

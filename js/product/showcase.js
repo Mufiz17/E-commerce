@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function() {
     // Fetch data from category.json
-    fetch("/db/showcase.json")
+    fetch("db/showcase.json")
         .then(response => response.json())
         .then(data => {
             // Process the data and generate HTML

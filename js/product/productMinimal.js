@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function() {
     // Fetch product minimal data from JSON file
-    fetch('/db/productminimal.json')
+    fetch('db/productminimal.json')
         .then(response => response.json())
         .then(data => {
             // Loop through product showcases

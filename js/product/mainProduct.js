@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function() {
-    fetch("/db/productmain.json")
+    fetch("db/productmain.json")
         .then(response => response.json())
         .then(data => displayProducts(data))
         .catch(error => console.error('Error fetching products:', error));

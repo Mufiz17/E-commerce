@@ -1,7 +1,7 @@
 [{
         "id": 1,
         "type": "Deal of the day",
-        "image": "/images/products/shampoo.png",
+        "image": "images/products/shampoo.png",
         "title": "Shampoo, Conditioner & Facewash Packs",
         "description": "Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor dolor sit amet consectetur Lorem ipsum dolor",
         "price": 150.00,
@@ -19,7 +19,7 @@
     {
         "id": 2,
         "type": "Deal of the day",
-        "image": "/images/products/perfume.png",
+        "image": "images/products/perfume.png",
         "title": "Rose Gold Diamonds Earring",
         "description": "Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor dolor sit amet consectetur Lorem ipsum dolor",
         "price": 1990.00,

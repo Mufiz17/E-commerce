@@ -1,6 +1,6 @@
 [{
         "name": "Clothes",
-        "icon": "/images/icons/dress.svg",
+        "icon": "images/icons/dress.svg",
         "products": [
             { "name": "Shirt", "stock": 300 },
             { "name": "shorts & jeans", "stock": 60 },
@@ -10,7 +10,7 @@
     },
     {
         "name": "Footwear",
-        "icon": "/images/icons/shoes.svg",
+        "icon": "images/icons/shoes.svg",
         "products": [
             { "name": "Sports", "stock": 45 },
             { "name": "Formal", "stock": 75 },
@@ -20,7 +20,7 @@
     },
     {
         "name": "Jewelry",
-        "icon": "/images/icons/jewelry.svg",
+        "icon": "images/icons/jewelry.svg",
         "products": [
             { "name": "Earrings", "stock": 46 },
             { "name": "Couple Rings", "stock": 73 },
@@ -29,7 +29,7 @@
     },
     {
         "name": "Perfume",
-        "icon": "/images/icons/perfume.svg",
+        "icon": "images/icons/perfume.svg",
         "products": [
             { "name": "Clothes Perfume", "stock": 12 },
             { "name": "Deodorant", "stock": 60 },
@@ -39,7 +39,7 @@
     },
     {
         "name": "Cosmetics",
-        "icon": "/images/icons/cosmetics.svg",
+        "icon": "images/icons/cosmetics.svg",
         "products": [
             { "name": "Shampoo", "stock": 68 },
             { "name": "Sunscreen", "stock": 46 },
@@ -49,7 +49,7 @@
     },
     {
         "name": "Glasses",
-        "icon": "/images/icons/glasses.svg",
+        "icon": "images/icons/glasses.svg",
         "products": [
             { "name": "Sunglasses", "stock": 50 },
             { "name": "Lenses", "stock": 48 }
@@ -57,7 +57,7 @@
     },
     {
         "name": "Bags",
-        "icon": "/images/icons/bag.svg",
+        "icon": "images/icons/bag.svg",
         "products": [
             { "name": "Shopping Bag", "stock": 62 },
             { "name": "Gym Backpack", "stock": 35 },

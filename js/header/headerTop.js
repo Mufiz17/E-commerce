@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function() {
     // Fetch data from header.json
-    fetch("/db/header.json")
+    fetch("db/header.json")
         .then(response => response.json())
         .then(data => {
             // Create main container

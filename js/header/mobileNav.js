@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function() {
     // Load JSON data
-    fetch('/db/mobile.json')
+    fetch('db/mobile.json')
         .then(response => response.json())
         .then(data => {
             // Create mobile navigation menu

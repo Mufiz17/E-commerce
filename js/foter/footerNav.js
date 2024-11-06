@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function() {
     // Fetch data from JSON file
-    fetch("/db/footernav.json")
+    fetch("db/footernav.json")
         .then(response => response.json())
         .then(data => {
             // Build footer using the fetched data
