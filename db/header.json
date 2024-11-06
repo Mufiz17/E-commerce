@@ -1,0 +1,21 @@
+{
+    "socialLinks": [
+        { "icon": "logo-facebook", "url": "#" },
+        { "icon": "logo-twitter", "url": "#" },
+        { "icon": "logo-instagram", "url": "#" },
+        { "icon": "logo-linkedin", "url": "#" }
+    ],
+    "alertNews": {
+        "title": "Free Shipping",
+        "message": "This Week Order Over - $55"
+    },
+    "currencies": [
+        { "name": "USD", "value": "usd", "symbol": "&dollar;" },
+        { "name": "EUR", "value": "eur", "symbol": "&euro;" }
+    ],
+    "languages": [
+        { "name": "English", "value": "en-US" },
+        { "name": "Español", "value": "es-ES" },
+        { "name": "Français", "value": "fr" }
+    ]
+}

@@ -1,0 +1,37 @@
+[{
+        "id": 1,
+        "type": "Deal of the day",
+        "image": "/images/products/shampoo.png",
+        "title": "Shampoo, Conditioner & Facewash Packs",
+        "description": "Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor dolor sit amet consectetur Lorem ipsum dolor",
+        "price": 150.00,
+        "discountedPrice": 200.00,
+        "sold": 20,
+        "available": 40,
+        "rating": 3,
+        "countdown": {
+            "days": 360,
+            "hours": 24,
+            "minutes": 59,
+            "seconds": 0
+        }
+    },
+    {
+        "id": 2,
+        "type": "Deal of the day",
+        "image": "/images/products/perfume.png",
+        "title": "Rose Gold Diamonds Earring",
+        "description": "Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor dolor sit amet consectetur Lorem ipsum dolor",
+        "price": 1990.00,
+        "discountedPrice": 2000.00,
+        "sold": 15,
+        "available": 40,
+        "rating": 3,
+        "countdown": {
+            "days": 360,
+            "hours": 24,
+            "minutes": 59,
+            "seconds": 0
+        }
+    }
+]

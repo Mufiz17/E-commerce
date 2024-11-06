@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/images/logo/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/style2.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <title>Dynamic Header</title>
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="header-top"></div>
+        <div class="header-main"></div>
+    </header>
+
+    <!-- Product Container Section -->
+    <div class="container">
+        <div class="product-box">
+            <div class="product-grid" id="root" style="margin: 40px 0 40px 0;">
+                <div class="product-main">
+                    <h2 class="title">New Products</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Display Area for Filtered Products -->
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="footer-category">
+            <div class="container">
+                <h2 class="footer-category-title">Brand directory</h2>
+            </div>
+        </div>
+        <div class="footer-nav">
+            <div class="container"></div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <img src="./images/payment.png" alt="payment method" class="payment-img">
+                <p class="copyright">
+                    Copyright &copy; <a href="#">STB SHOP</a> all rights reserved.
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript and Ionicons Scripts -->
+    <script src="/js/header/headerTop.js"></script>
+    <script src="/js/header/mainHeader.js"></script>
+    <script src="/js/product/mainProduct.js"></script>
+    <script src="/js/foter/footerCat.js"></script>
+    <script src="/js/foter/footerNav.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script>
+        const url = window.location.search;
+        const urlParams = new URLSearchParams(url);
+        const getQuery = urlParams.get('query').toLowerCase();
+
+        async function getApi() {
+            const response = await fetch('/db/productmain.json');
+            const data = await response.json();
+            console.log(data);
+
+            // Filter products based on the query
+            const filteredProducts = data.filter((item) => item.name.toLowerCase().includes(getQuery));
+
+            // Display the filtered products
+            displayFilteredProducts(filteredProducts);
+        }
+
+        function displayFilteredProducts(products) {
+            const container = document.getElementById('root');
+
+            // Clear previous content
+            container.innerHTML = '';
+
+
+            // Display each filtered product
+            products.forEach((product) => {
+                container.innerHTML += `
+                    <div class='showcase' id='pres' style="padding-bottom: 10px;" onclick='productPage()'>
+                        <div class='showcase-banner'>
+                            <img class='product-img default' src=${product.defaultImage} alt=${product.name}></img> 
+                            <img class='product-img hover' src=${product.hoverImage} alt=${product.name}></img>
+                        </div>
+                        <div class='showcase-content'>
+                            <a href="#" class='showcase-category'>${product.category}</a>
+                            <a href="#"> 
+                                <h3 class='showcase-title'>${product.name}</h3>
+                            </a>
+                            <div class='showcase-rating'>${product.rating}</div>
+                            <div class='price-box'>
+                                <p class='price'>$ ${product.price}.00</p>
+                                <del>${product.oldPrice}</del>
+                            </div>
+                        </div>
+                    </div>`;
+            });
+        }
+
+
+        getApi();
+    </script>
+</body>
+
+</html>

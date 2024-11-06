@@ -1,0 +1,41 @@
+[{
+        "title": "Home",
+        "link": "../index.html"
+    },
+    {
+        "title": "Men's",
+        "submenu": [
+            { "title": "Shirt", "link": "#" },
+            { "title": "Shorts & Jeans", "link": "#" },
+            { "title": "Safety Shoes", "link": "#" },
+            { "title": "Wallet", "link": "#" }
+        ]
+    },
+    {
+        "title": "Women's",
+        "submenu": [
+            { "title": "Dress & Frock", "link": "#" },
+            { "title": "Earrings", "link": "#" },
+            { "title": "Necklace", "link": "#" },
+            { "title": "Makeup Kit", "link": "#" }
+        ]
+    },
+    {
+        "title": "Jewelry",
+        "submenu": [
+            { "title": "Earrings", "link": "#" },
+            { "title": "Couple Rings", "link": "#" },
+            { "title": "Necklace", "link": "#" },
+            { "title": "Bracelets", "link": "#" }
+        ]
+    },
+    {
+        "title": "Perfume",
+        "submenu": [
+            { "title": "Clothes Perfume", "link": "#" },
+            { "title": "Deodorant", "link": "#" },
+            { "title": "Flower Fragrance", "link": "#" },
+            { "title": "Air Freshener", "link": "#" }
+        ]
+    }
+]

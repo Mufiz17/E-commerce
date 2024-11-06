@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/images/logo/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/style2.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <title>Dynamic Header</title>
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="header-top"></div>
+        <div class="header-main"></div>
+    </header>
+
+    <!-- Product Container Section -->
+    <div class="container">
+        <div class="product-div" style="margin: 40px 0 40px 0;">
+            <div class="product-div-left">
+                <div class="img-container">
+                    <img id="mainImage" src="" alt="watch">
+                </div>
+                <div class="hover-container" id="thumbnailContainer"></div>
+            </div>
+            <div class="product-div-right">
+                <span class="product-name" id="productName"></span>
+                <span class="product-price" id="productPrice"></span>
+                <div class="product-rating" id="productRating"></div>
+                <p class="product-description" id="productDescription"></p>
+                <div class="btn-groups">
+                    <button type="button" class="add-cart-btn"><i class="fas fa-shopping-cart"></i>add to cart</button>
+                    <button type="button" class="buy-now-btn"><i class="fas fa-wallet"></i>buy now</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Another Product -->
+    <div class="container">
+        <div class="product-box">
+            <div class="product-main">
+                <h2 class="title">Another Products</h2>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="footer-category">
+            <div class="container">
+                <h2 class="footer-category-title">Brand directory</h2>
+            </div>
+        </div>
+        <div class="footer-nav">
+            <div class="container"></div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <img src="./images/payment.png" alt="payment method" class="payment-img">
+                <p class="copyright">
+                    Copyright &copy; <a href="#">STB SHOP</a> all rights reserved.
+                </p>
+            </div>
+        </div>
+    </footer>
+</body>
+<!-- JavaScript and Ionicons Scripts -->
+<script src="/js/header/headerTop.js"></script>
+<script src="/js/header/mainHeader.js"></script>
+<script src="/js/product/mainProduct.js"></script>
+<script src="/js/product/productDetail.js"></script>
+<script src="/js/foter/footerCat.js"></script>
+<script src="/js/foter/footerNav.js"></script>
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+<script>
+    const url = window.location.search;
+    const urlParams = new URLSearchParams(url);
+    const getQuery = urlParams.get('query').toLowerCase();
+
+    async function getApi() {
+        const response = await fetch('/db/productmain.json');
+        const data = await response.json();
+        console.log(data);
+
+        // Filter products based on the query
+        const filteredProducts = data.filter((item) => item.name.toLowerCase().includes(getQuery));
+
+        // Display the filtered products
+        displayFilteredProducts(filteredProducts);
+    }
+</script>

@@ -1,0 +1,61 @@
+[{
+        "title": "Fashion",
+        "links": [
+            { "text": "T-shirt", "url": "#" },
+            { "text": "Shirts", "url": "#" },
+            { "text": "Shorts & Jeans", "url": "#" },
+            { "text": "Jacket", "url": "#" },
+            { "text": "Dress & Frock", "url": "#" },
+            { "text": "Innerwear", "url": "#" },
+            { "text": "Hosiery", "url": "#" }
+        ]
+    },
+    {
+        "title": "Footwear",
+        "links": [
+            { "text": "Sport", "url": "#" },
+            { "text": "Formal", "url": "#" },
+            { "text": "Boots", "url": "#" },
+            { "text": "Casual", "url": "#" },
+            { "text": "Cowboy Shoes", "url": "#" },
+            { "text": "Safety Shoes", "url": "#" },
+            { "text": "Party Wear Shoes", "url": "#" },
+            { "text": "Branded", "url": "#" },
+            { "text": "Firstcopy", "url": "#" },
+            { "text": "Long Shoes", "url": "#" }
+        ]
+    },
+    {
+        "title": "Jewellery",
+        "links": [
+            { "text": "Necklace", "url": "#" },
+            { "text": "Earrings", "url": "#" },
+            { "text": "Couple Rings", "url": "#" },
+            { "text": "Pendants", "url": "#" },
+            { "text": "Crystal", "url": "#" },
+            { "text": "Bangles", "url": "#" },
+            { "text": "Bracelets", "url": "#" },
+            { "text": "Nosepin", "url": "#" },
+            { "text": "Chain", "url": "#" }
+        ]
+    },
+    {
+        "title": "Cosmetics",
+        "links": [
+            { "text": "Shampoo", "url": "#" },
+            { "text": "Bodywash", "url": "#" },
+            { "text": "Facewash", "url": "#" },
+            { "text": "Makeup Kit", "url": "#" },
+            { "text": "Liner", "url": "#" },
+            { "text": "Lipstick", "url": "#" },
+            { "text": "Perfume", "url": "#" },
+            { "text": "Body Soap", "url": "#" },
+            { "text": "Scrub", "url": "#" },
+            { "text": "Hair Gel", "url": "#" },
+            { "text": "Hair Colors", "url": "#" },
+            { "text": "Hair Dye", "url": "#" },
+            { "text": "Sunscreen", "url": "#" },
+            { "text": "Skin Lotion", "url": "#" }
+        ]
+    }
+]

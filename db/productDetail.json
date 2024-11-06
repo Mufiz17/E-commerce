@@ -1,0 +1,19 @@
+{
+    "product": {
+        "name": "(New) Analog Watch - For Men",
+        "price": "$ 50.25",
+        "rating": {
+            "stars": 4,
+            "halfStar": true,
+            "ratings": 350
+        },
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae animi ad minima veritatis dolore. Architecto facere dignissimos voluptate fugit ratione molestias quis quidem exercitationem voluptas.",
+        "images": [
+            "/images/products/shampoo.png",
+            "/images/product-02.jpg",
+            "/images/product-03.jpg",
+            "/images/product-04.jpg",
+            "/images/product-05.jpg"
+        ]
+    }
+}

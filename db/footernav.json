@@ -1,0 +1,60 @@
+{
+    "categories": [{
+            "title": "Popular Categories",
+            "items": [
+                { "name": "Fashion", "link": "#" },
+                { "name": "Electronic", "link": "#" },
+                { "name": "Cosmetic", "link": "#" },
+                { "name": "Health", "link": "#" },
+                { "name": "Watches", "link": "#" }
+            ]
+        },
+        {
+            "title": "Products",
+            "items": [
+                { "name": "Prices drop", "link": "#" },
+                { "name": "New products", "link": "#" },
+                { "name": "Best sales", "link": "#" },
+                { "name": "Contact us", "link": "#" },
+                { "name": "Sitemap", "link": "#" }
+            ]
+        },
+        {
+            "title": "Our Company",
+            "items": [
+                { "name": "Delivery", "link": "#" },
+                { "name": "Legal Notice", "link": "#" },
+                { "name": "Terms and conditions", "link": "#" },
+                { "name": "About us", "link": "#" },
+                { "name": "Secure payment", "link": "#" }
+            ]
+        },
+        {
+            "title": "Services",
+            "items": [
+                { "name": "Prices drop", "link": "#" },
+                { "name": "New products", "link": "#" },
+                { "name": "Best sales", "link": "#" },
+                { "name": "Contact us", "link": "#" },
+                { "name": "Sitemap", "link": "#" }
+            ]
+        },
+        {
+            "title": "Contact",
+            "items": [
+                { "name": "Location", "content": "419 State 414 Rte Beaver Dams, New York(NY), 14812, USA" },
+                { "name": "Phone", "link": "tel:+607936-8058", "content": "(607) 936-8058" },
+                { "name": "Email", "link": "mailto:example@gmail.com", "content": "example@gmail.com" }
+            ]
+        },
+        {
+            "title": "Follow Us",
+            "items": [
+                { "name": "Facebook", "icon": "logo-facebook", "link": "#" },
+                { "name": "Twitter", "icon": "logo-twitter", "link": "#" },
+                { "name": "LinkedIn", "icon": "logo-linkedin", "link": "#" },
+                { "name": "Instagram", "icon": "logo-instagram", "link": "#" }
+            ]
+        }
+    ]
+}

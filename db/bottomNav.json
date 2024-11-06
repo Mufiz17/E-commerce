@@ -1,0 +1,21 @@
+[{
+        "iconName": "menu-outline",
+        "hasCount": false
+    },
+    {
+        "iconName": "bag-handle-outline",
+        "hasCount": true
+    },
+    {
+        "iconName": "home-outline",
+        "hasCount": false
+    },
+    {
+        "iconName": "heart-outline",
+        "hasCount": true
+    },
+    {
+        "iconName": "grid-outline",
+        "hasCount": false
+    }
+]

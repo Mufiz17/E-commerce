@@ -1,0 +1,234 @@
+[{
+        "title": "Home",
+        "link": "#"
+    },
+    {
+        "title": "Categories",
+        "link": "#",
+        "subcategories": [{
+                "title": "Electronics",
+                "link": "#",
+                "subcategories": [{
+                        "title": "Desktop",
+                        "link": "#"
+                    },
+                    {
+                        "title": "Laptop",
+                        "link": "#"
+                    },
+                    {
+                        "title": "Camera",
+                        "link": "#"
+                    },
+                    {
+                        "title": "Tablet",
+                        "link": "#"
+                    },
+                    {
+                        "title": "Headphone",
+                        "link": "#"
+                    },
+                    {
+                        "title": "Headphone Collection",
+                        "link": "#",
+                        "image": "/images/electronics-banner-1.jpg",
+                        "imageAlt": "Headphone Collection",
+                        "imageWidth": 250,
+                        "imageHeight": 119
+                    }
+                ]
+            },
+            {
+                "title": "Men's",
+                "link": "#",
+                "subcategories": [{
+                        "title": "Formal",
+                        "link": "#"
+                    },
+                    {
+                        "title": "Casual",
+                        "link": "#"
+                    },
+                    {
+                        "title": "Sports",
+                        "link": "#"
+                    },
+                    {
+                        "title": "Jacket",
+                        "link": "#"
+                    },
+                    {
+                        "title": "Sunglasses",
+                        "link": "#"
+                    },
+                    {
+                        "title": "Men's Fashion",
+                        "link": "#",
+                        "image": "./images/mens-banner.jpg",
+                        "imageAlt": "Men's Fashion",
+                        "imageWidth": 250,
+                        "imageHeight": 119
+                    }
+                ]
+            },
+            {
+                "title": "Women's",
+                "link": "#",
+                "subcategories": [{
+                        "title": "Formal",
+                        "link": "#"
+                    },
+                    {
+                        "title": "Casual",
+                        "link": "#"
+                    },
+                    {
+                        "title": "Perfume",
+                        "link": "#"
+                    },
+                    {
+                        "title": "Cosmetics",
+                        "link": "#"
+                    },
+                    {
+                        "title": "Bags",
+                        "link": "#"
+                    },
+                    {
+                        "title": "Women's Fashion",
+                        "link": "#",
+                        "image": "./images/womens-banner.jpg",
+                        "imageAlt": "Women's Fashion",
+                        "imageWidth": 250,
+                        "imageHeight": 119
+                    }
+                ]
+            },
+            {
+                "title": "Electronics",
+                "link": "#",
+                "subcategories": [{
+                        "title": "Smart Watch",
+                        "link": "#"
+                    },
+                    {
+                        "title": "Smart TV",
+                        "link": "#"
+                    },
+                    {
+                        "title": "Keyboard",
+                        "link": "#"
+                    },
+                    {
+                        "title": "Mouse",
+                        "link": "#"
+                    },
+                    {
+                        "title": "Microphone",
+                        "link": "#"
+                    },
+                    {
+                        "title": "Mouse Collection",
+                        "link": "#",
+                        "image": "./images/electronics-banner-1.jpg",
+                        "imageAlt": "Mouse Collection",
+                        "imageWidth": 250,
+                        "imageHeight": 119
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "Men's",
+        "link": "#",
+        "subcategories": [{
+                "title": "Shirt",
+                "link": "#"
+            },
+            {
+                "title": "Shorts & Jeans",
+                "link": "#"
+            },
+            {
+                "title": "Safety Shoes",
+                "link": "#"
+            },
+            {
+                "title": "Wallet",
+                "link": "#"
+            }
+        ]
+    },
+    {
+        "title": "Women's",
+        "link": "#",
+        "subcategories": [{
+                "title": "Dress & Frock",
+                "link": "#"
+            },
+            {
+                "title": "Earrings",
+                "link": "#"
+            },
+            {
+                "title": "Necklace",
+                "link": "#"
+            },
+            {
+                "title": "Makeup Kit",
+                "link": "#"
+            }
+        ]
+    },
+    {
+        "title": "Jewelry",
+        "link": "#",
+        "subcategories": [{
+                "title": "Earrings",
+                "link": "#"
+            },
+            {
+                "title": "Couple Rings",
+                "link": "#"
+            },
+            {
+                "title": "Necklace",
+                "link": "#"
+            },
+            {
+                "title": "Bracelets",
+                "link": "#"
+            }
+        ]
+    },
+    {
+        "title": "Perfume",
+        "link": "#",
+        "subcategories": [{
+                "title": "Clothes Perfume",
+                "link": "#"
+            },
+            {
+                "title": "Deodorant",
+                "link": "#"
+            },
+            {
+                "title": "Flower Fragrance",
+                "link": "#"
+            },
+            {
+                "title": "Air Freshener",
+                "link": "#"
+            }
+        ]
+    },
+    {
+        "title": "Blog",
+        "link": "#"
+    },
+    {
+        "title": "Hot Offers",
+        "link": "#"
+    }
+]

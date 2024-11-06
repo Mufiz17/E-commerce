@@ -1,0 +1,41 @@
+[{
+        "title": "Makeup",
+        "amount": 53,
+        "icon": "//images.soco.id/21203631505-1590769544161.png"
+    },
+    {
+        "title": "Skincare",
+        "amount": 58,
+        "icon": "//images.soco.id/90364224749-1590776704588.png"
+    },
+    {
+        "title": "Hair Care",
+        "amount": 68,
+        "icon": "//images.soco.id/51fa0762-65a0-41e6-9195-accc968baf0d-.jpg"
+    },
+    {
+        "title": "Gift Set",
+        "amount": 84,
+        "icon": "//images.soco.id/22763804979-1590808347227.png"
+    },
+    {
+        "title": "Bath & Body",
+        "amount": 35,
+        "icon": "//images.soco.id/22653969189-1590820410907.png"
+    },
+    {
+        "title": "Accessories",
+        "amount": 16,
+        "icon": "//images.soco.id/28655872214-1590806772703.png"
+    },
+    {
+        "title": "Home Care",
+        "amount": 27,
+        "icon": "//images.soco.id/7c0ebc6f-ec34-4a92-a0ba-3782d97b0fc7-.jpg"
+    },
+    {
+        "title": "Shaving & Grooming",
+        "amount": 39,
+        "icon": "//images.soco.id/000479d8-b8fd-4ac0-8b37-1b0a07bf3315-.jpg"
+    }
+]

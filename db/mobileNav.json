@@ -1,0 +1,66 @@
+[{
+        "title": "Home"
+    },
+    {
+        "title": "Categories",
+        "subcategories": [{
+                "title": "Electronics",
+                "items": ["Desktop", "Laptop", "Camera", "Tablet", "Headphone"]
+            },
+            {
+                "title": "Men's",
+                "items": ["Formal", "Casual", "Sports", "Jacket", "Sunglasses"]
+            },
+            {
+                "title": "Women's",
+                "items": ["Formal", "Casual", "Perfume", "Cosmetics", "Bags"]
+            },
+            {
+                "title": "Electronics",
+                "items": ["Smart Watch", "Smart TV", "Keyboard", "Mouse", "Microphone"]
+            }
+        ]
+    },
+    {
+        "title": "Men's",
+        "subcategories": [
+            "Shirt",
+            "Shorts & Jeans",
+            "Safety Shoes",
+            "Wallet"
+        ]
+    },
+    {
+        "title": "Women's",
+        "subcategories": [
+            "Dress & Frock",
+            "Earrings",
+            "Necklace",
+            "Makeup Kit"
+        ]
+    },
+    {
+        "title": "Jewelry",
+        "subcategories": [
+            "Earrings",
+            "Couple Rings",
+            "Necklace",
+            "Bracelets"
+        ]
+    },
+    {
+        "title": "Perfume",
+        "subcategories": [
+            "Clothes Perfume",
+            "Deodorant",
+            "Flower Fragrance",
+            "Air Freshener"
+        ]
+    },
+    {
+        "title": "Blog"
+    },
+    {
+        "title": "Hot Offers"
+    }
+]
