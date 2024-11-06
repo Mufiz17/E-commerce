@@ -63,7 +63,7 @@
         </div>
         <div class="footer-bottom">
             <div class="container">
-                <img src="./images/payment.png" alt="payment method" class="payment-img">
+                <img src="images/payment.png" alt="payment method" class="payment-img">
                 <p class="copyright">
                     Copyright &copy; <a href="#">STB SHOP</a> all rights reserved.
                 </p>
@@ -72,12 +72,12 @@
     </footer>
 </body>
 <!-- JavaScript and Ionicons Scripts -->
-<script src="/js/header/headerTop.js"></script>
-<script src="/js/header/mainHeader.js"></script>
-<script src="/js/product/mainProduct.js"></script>
-<script src="/js/product/productDetail.js"></script>
-<script src="/js/foter/footerCat.js"></script>
-<script src="/js/foter/footerNav.js"></script>
+<script src="js/header/headerTop.js"></script>
+<script src="js/header/mainHeader.js"></script>
+<script src="js/product/mainProduct.js"></script>
+<script src="js/product/productDetail.js"></script>
+<script src="js/foter/footerCat.js"></script>
+<script src="js/foter/footerNav.js"></script>
 <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
 <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 <script>
@@ -86,7 +86,7 @@
     const getQuery = urlParams.get('query').toLowerCase();
 
     async function getApi() {
-        const response = await fetch('/db/productmain.json');
+        const response = await fetch('db/productmain.json');
         const data = await response.json();
         console.log(data);
 
